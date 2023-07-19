@@ -1,0 +1,145 @@
+body {
+    margin: 0 ;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 60px;
+}
+
+.logo{
+    height: 60px;    
+
+}
+
+.navlinks {
+    text-decoration: none;
+}
+
+section.hero {
+    height: 42vw;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1689731948898-061acd516845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.herobutton {
+    text-align: center;
+}
+
+.herobutton a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 13px;
+    border-radius: 10px;
+}
+
+.herobutton:hover {
+    transition: 300ms ease-in-out grey;
+}
+
+.heroText {
+    font-size: 650%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+section.services {
+    display: flex;
+    height: 37vw;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+section.text {
+    margin: 5vw;
+}
+
+p {
+    margin: 0px 15%;
+    padding: 10px 0px;
+}
+
+
+div.HeroService {
+    height: 35vw;
+    width: 25vw;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.HeroService:hover {
+    transition: 300ms ease;
+    box-shadow: 0px 10px 30px grey;
+    
+}
+
+div>img {
+    object-fit: cover;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+nav>ul>li>a:hover {
+    color: gray;
+}
+
+nav>ul>li {
+    display: inline;
+    padding: 10px;
+}
+
+nav {
+    background-color: white;
+    height: 60px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.footerlinks {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: rgb(223, 223, 223);
+    color: rgb(0, 0, 0);
+}
+
+.footerlinks a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.footerlinks ul {
+    list-style-type: none;
+}
